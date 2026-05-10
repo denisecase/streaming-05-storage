@@ -416,8 +416,6 @@ def main() -> None:
     LOG.info("SECTION C. Consume and Process Messages")
     LOG.info("========================")
 
-    # NEW: Update initialize_output() to return
-    # the db connection and the stats object.
     stats = initialize_output()
     region_lookup = load_reference_data()
 
